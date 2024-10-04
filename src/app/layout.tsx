@@ -36,7 +36,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}
       >
-       <Menu op1="Inicial" op2="Maths" op3="General function"/>
+       <Menu op1="Inicial" op2="Maths" op3="General function" op4="Fetch nativo" op5="Axios page" op6="Server side page"/>
         {children}
       </body>
     </html>
